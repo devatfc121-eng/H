@@ -1,0 +1,6 @@
+{
+  "name": "Biophar - Doctor Visual Aid & Product Manager",
+  "description": "Showcase pharma products and visual aids to doctors with full product add and delete management.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

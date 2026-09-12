@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="capsuleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <!-- Medical Plus Base Glow -->
+  <rect x="220" y="100" width="72" height="312" rx="36" fill="#ffffff" />
+  <rect x="100" y="220" width="312" height="72" rx="36" fill="#ffffff" />
+  <!-- Inner Capsule Symbol -->
+  <circle cx="256" cy="256" r="64" fill="#0284c7" />
+  <path d="M256 208 A48 48 0 0 1 304 256 L208 256 A48 48 0 0 1 256 208 Z" fill="#38bdf8" />
+  <path d="M208 256 L304 256 A48 48 0 0 1 256 304 A48 48 0 0 1 208 256 Z" fill="#ffffff" />
+  <text x="256" y="468" text-anchor="middle" fill="#e0f2fe" font-size="34" font-family="sans-serif" font-weight="900" letter-spacing="4">BIOPHAR</text>
+</svg>

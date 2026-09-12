@@ -1,0 +1,66 @@
+{
+  "id": "com.biopharlifesciences.app",
+  "name": "Biophar Lifesciences - Doctor Visual Aid",
+  "short_name": "Biophar",
+  "description": "Official Doctor Visual Aid, Medical Representative Detailing & Chemist Order Management for Biophar Lifesciences.",
+  "theme_color": "#0284c7",
+  "background_color": "#0f172a",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "start_url": "/?utm_source=playstore",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": ["medical", "business", "productivity", "health"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Doctor Detailing",
+      "short_name": "Detailing",
+      "description": "Open Offline Doctor Visual Aid Presenter",
+      "url": "/?mode=detailing",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Chemist Orders",
+      "short_name": "Orders",
+      "description": "Manage Chemist and Doctor Orders",
+      "url": "/?tab=orders",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Product Rate List",
+      "short_name": "Rates",
+      "description": "View and Print Chemist & Doctor Rate Lists",
+      "url": "/?action=ratelist",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.biopharlifesciences.app",
+      "url": "https://play.google.com/store/apps/details?id=com.biopharlifesciences.app"
+    }
+  ]
+}

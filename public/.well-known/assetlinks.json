@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.biopharlifesciences.app",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7D:0F:52:AB:3A:D8:0C:6D:F9:BE:D6:75:56:AB:45:95:C3:7E:8A:24:D8:1A:3A:B8:3F:8A:2B:B3:9F",
+        "A1:B2:C3:D4:E5:F6:07:18:29:3A:4B:5C:6D:7E:8F:90:12:34:56:78:9A:BC:DE:F0:12:34:56:78:9A:BC:DE:F0"
+      ]
+    }
+  }
+]
